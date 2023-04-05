@@ -10,11 +10,14 @@
         <Description>An API wrapper for the CheapConnect SMS Api.</Description>
         <Copyright>Leendert-Jan Floor</Copyright>
         <RepositoryUrl>https://github.com/LJFloor/CheapConnect.NET</RepositoryUrl>
-        <PackageLicenseUrl>https://github.com/LJFloor/CheapConnect.NET/LICENSE</PackageLicenseUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
+    
 
     <ItemGroup>
       <PackageReference Include="RestSharp" Version="110.1.0" />
+        <None Include="README.md" Pack="true" PackagePath=""/>
+        <None Include="LICENSE" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>

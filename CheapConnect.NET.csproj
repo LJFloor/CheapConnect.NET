@@ -1,9 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>CheapConnect.NET</Title>
+        <Authors>LJFloor</Authors>
+        <Description>An API wrapper for the CheapConnect SMS Api.</Description>
+        <Copyright>LJFloor</Copyright>
+        <RepositoryUrl>https://github.com/LJFloor/CheapConnect.NET</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
